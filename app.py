@@ -15,7 +15,7 @@ import pandas as pd
 # Configuration and Initialization
 def initialize_app():
     try:
-        api_key = os.getenv("AIzaSyDplai8TdzRpuYaY73_cRD0JiZajCyhqu4") or "AIzaSyDplai8TdzRpuYaY73_cRD0JiZajCyhqu4"
+        api_key = os.getenv("AIzaSyDplai8TdzRpuYaY73_cRD0JiZajCyhq") or "AIzaSyDplai8TdzRpuYaY73_cRD0JiZajCyhqu"
         genai = ChatGoogleGenerativeAI(api_key=api_key, model='gemini-1.5-flash')
         return genai
     except Exception as e:
