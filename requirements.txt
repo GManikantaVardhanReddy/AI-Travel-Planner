@@ -1,0 +1,7 @@
+streamlit
+langchain-google-genai
+streamlit-lottie
+requests
+pydeck
+geopy
+openmeteo-requests
